@@ -1,5 +1,5 @@
-a = input("Введите число: ")  # type str
-a = int(a)  # str --> int # "2" --> 2, а уже "hello" -> not int !
-formula = a ** 2
-
-print("Квадрат числа: ", formula)
+a = int(input())
+if (a // 10000 == 0) and (a // 1000 != 0)  and (a % 7 == 0 or a % 17 == 0):
+    print('YES')
+else:
+    print('NO')
